@@ -95,7 +95,6 @@ function HomeScreen({ t, tabColor }) {
       </section>
 
       <section className="block">
-        <SectionHead title="Accesos rápidos" sub="Lo que más usas, a un clic" />
         <div className="folder-grid">
           {ACCESOS.map((a) => (
             <FolderCard key={a.id} big icon={a.icon} tab={tabColor(a.tab)}

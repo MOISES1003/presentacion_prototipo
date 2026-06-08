@@ -8,17 +8,17 @@ const NAV_DOCS = [
   { id: 'tareas', label: 'Mis Tareas', icon: 'tasks', badge: 8 },
   { id: 'elaborar', label: 'Elaborar Documento', icon: 'edit' },
   { id: 'vigentes', label: 'Documentos Vigentes', icon: 'search' },
-  { id: 'traza', label: 'Trazabilidad', icon: 'history' },
+  // { id: 'traza', label: 'Trazabilidad', icon: 'history' },
   { id: 'obsoletos', label: 'Documentos obsoletos', icon: 'archive' },
 ];
 const NAV_ADMIN = [
   { id: 'taxonomia', label: 'Taxonomía', icon: 'taxonomy' },
   { id: 'listas', label: 'Listas de Distribución', icon: 'distribution' },
-  { id: 'tipodoc', label: 'Tipo de documento', icon: 'doctype' },
-  { id: 'areas', label: 'Áreas', icon: 'areas' },
-  { id: 'cargos', label: 'Cargos', icon: 'cargos' },
-  { id: 'usuarios', label: 'Usuarios y Roles', icon: 'users' },
-  { id: 'roles', label: 'Roles', icon: 'roles' },
+  // { id: 'tipodoc', label: 'Tipo de documento', icon: 'doctype' },
+  // { id: 'areas', label: 'Áreas', icon: 'areas' },
+  // { id: 'cargos', label: 'Cargos', icon: 'cargos' },
+  // { id: 'usuarios', label: 'Usuarios y Roles', icon: 'users' },
+  // { id: 'roles', label: 'Roles', icon: 'roles' },
 ];
 
 function Sidebar({ active, setActive }) {

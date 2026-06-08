@@ -107,6 +107,8 @@ function TareasScreen() {
             <span className="tar-count"><b>{rows.length}</b> {tab === 'no' ? 'sin atender' : 'atendidas'}</span>
           </div>
 
+<div className="tar-read">
+
           <div className="tar-list-head">
             <h3>{tab === 'no' ? 'Mis tareas pendientes' : 'Tareas atendidas'}</h3>
             <p>{tab === 'no' ? 'Documentos esperando tu intervención' : 'Documentos que ya completaste'}</p>
@@ -129,6 +131,7 @@ function TareasScreen() {
               </div>
             </div>
           </div>
+</div>
         </div>
 
         {/* LECTURAS */}
