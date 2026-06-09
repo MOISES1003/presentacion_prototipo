@@ -170,8 +170,8 @@ function TaxonomiaScreen() {
   return (
     <div className="scroll has-savebar">
       <PageHead
-        title="Taxonomía y configuración"
-        sub="Configuración de nodos, flujo y listas de distribución."
+        title="Configuración de Flujos"
+        sub="Flujo de revisión y lista de distribución por nodo (Dirección · Tipo · Sector )."
       />
 
       <div className="tax-wrap">
@@ -263,7 +263,7 @@ function TaxonomiaScreen() {
                 del flujo
               </div>
               <div className="flow-cols">
-                <FlowCol
+                {/* <FlowCol
                   label="Elaboradores"
                   color="var(--green)"
                   people={flow.Elaboradores}
@@ -272,7 +272,7 @@ function TaxonomiaScreen() {
                 />
                 <span className="flow-arrow">
                   <Icon name="chevronRight" size={18} stroke={2.6} />
-                </span>
+                </span> */}
                 <FlowCol
                   label="Revisores"
                   color="var(--blue)"
